@@ -12,7 +12,7 @@ func write(_ text: String) { FileHandle.standardOutput.write(Data(text.utf8)) }
 func message(_ text: String) { FileHandle.standardError.write(Data((text + "\n").utf8)) }
 let usage = """
 雨爱 · macOS ASCII
-用法：雨爱.command [选项]
+用法：rainLove.command [选项]
   --mute                 静音
   --no-intro             跳过乱码开场
   --cell-aspect 数值      字符宽高比，默认 0.5

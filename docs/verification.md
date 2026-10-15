@@ -5,9 +5,9 @@
 ## 构建及数据
 
 - `./scripts/build.sh`：通过，生成 arm64 Mach-O 可执行文件，部署目标 macOS 13。
-- `bash -n 雨爱.command scripts/build.sh`：通过。
-- `./雨爱.command --help`：通过。
-- `./雨爱.command --validate`：通过；2639 帧，320×180，24 fps；动画 109.958s，WAV 109.973s。
+- `bash -n rainLove.command scripts/build.sh`：通过。
+- `./rainLove.command --help`：通过。
+- `./rainLove.command --validate`：通过；2639 帧，320×180，24 fps；动画 109.958s，WAV 109.973s。
 - 完整静音正片：109.96 秒，绘制全部 2639 帧，期间从 120×40 调整为 60×18，正常结束。
 
 ## 实现完成后的伪终端集成验证
