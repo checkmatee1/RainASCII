@@ -2,11 +2,15 @@
 
 在 macOS Terminal 中播放《新宿决战 · 雨爱》黑白 ASCII 字符动画，带本地音轨、约 3 秒乱码开场、窗口自适应与自动跳帧。正片约 110 秒，24 fps。
 
-## 灵感来源
+## 来源与致谢
 
-本项目灵感来自 B 站视频 [《输入一串乱码就可以用cmd播放新宿决战!》](https://www.bilibili.com/video/BV1sfp869EUH/)，UP 主：゙゙゙茶呆呆。macOS 播放器参照本机 `Downloads/雨爱/Player.cs` 的交互及 ASCII 渲染方式重新实现，使用 Swift、Darwin 与 AVFoundation。
+本项目灵感来自 B 站视频 [《输入一串乱码就可以用cmd播放新宿决战!》](https://www.bilibili.com/video/BV1sfp869EUH/)，UP 主：゙゙゙茶呆呆。
 
-素材与灵感视频分开注明：所用动画帧及音轨复用本机 Windows 项目，该项目记录素材来自 [《「新宿决战」雨爱版》](https://www.bilibili.com/video/BV1QC3G6DEKX/)，UP 主：望穿秋水145。素材来源信息引自已有项目记录，未独立核实。视频、音乐及角色等权利归相应权利人，仅供本地学习体验；本项目不表示获得素材转载许可。已有帧数据经过原 Windows 制作流程处理，本项目不重新处理原视频。
+作为移植基础的 Windows 项目，是从上述视频下方提供的网盘链接下载的。本项目基于该下载项目制作 macOS 版本：参考其中 `Player.cs` 的交互与 ASCII 渲染方式，使用 Swift、Darwin 与 AVFoundation 重新实现播放器，并复用下载项目中的动画帧和音轨。
+
+下载项目内的素材记录另行注明视频为 [《「新宿决战」雨爱版》](https://www.bilibili.com/video/BV1QC3G6DEKX/)，UP 主：望穿秋水145；该信息保留作为素材溯源，未独立核实。
+
+感谢原视频及 Windows 下载项目的创作者。视频、音乐及角色等权利归相应权利人，仅供本地学习体验；本项目不表示获得素材转载许可。本项目直接复用下载包内已有的帧数据，不重新处理原视频。
 
 ## 启动
 
