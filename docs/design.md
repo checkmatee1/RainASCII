@@ -1,7 +1,7 @@
 # 雨爱 macOS 终端播放器设计
 
 ## 目标
-在 `/Users/checkmate/Documents/RainASCII` 新建独立项目，实现 Downloads/雨爱 中 Windows 终端动画的 macOS 版本。Windows 源目录保持原样。用户可以双击 `雨爱.command`，或在已打开的终端中运行入口，播放现有约 110 秒的黑白字符动画与音轨。
+在 `/Users/checkmate/Documents/RainASCII` 新建独立项目，实现 Downloads/雨爱 中 Windows 终端动画的 macOS 版本。Windows 源目录保持原样。用户可以双击 `rainLove.command`，或在已打开的终端中运行入口，播放现有约 110 秒的黑白字符动画与音轨。
 
 ## 首版功能
 - 保留约 3 秒乱码扫屏、进度提示与渐隐开场。

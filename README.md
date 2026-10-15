@@ -14,14 +14,14 @@
 
 ## 启动
 
-双击 `雨爱.command`，在 Terminal 中运行。也可以在已有终端输入：
+双击 `rainLove.command`，在 Terminal 中运行。也可以在已有终端输入：
 
 ```bash
 cd ~/Documents/RainASCII
-./雨爱.command
-./雨爱.command --mute
-./雨爱.command --no-intro
-./雨爱.command --duration 10
+./rainLove.command
+./rainLove.command --mute
+./rainLove.command --no-intro
+./rainLove.command --duration 10
 ```
 
 Q、Esc 或 Ctrl+C 退出，结束时恢复原终端屏幕、光标和输入状态。窗口需要获得焦点才能接收按键。Ctrl+Z 在播放期间忽略，避免挂起后留下隐藏光标或关闭回显的终端。
@@ -36,8 +36,8 @@ Q、Esc 或 Ctrl+C 退出，结束时恢复原终端屏幕、光标和输入状�
 
 ```bash
 ./scripts/build.sh
-./雨爱.command --validate
-./雨爱.command --help
+./rainLove.command --validate
+./rainLove.command --help
 ```
 
 入口在程序缺失时自动尝试构建。换到其他架构的 Mac 时请重新构建。本机二进制未经 Developer ID 签名或公证，不作为通用 macOS 安装包。支持 macOS 13 及以上版本；最低版本兼容性尚未在旧系统实机验证。
@@ -48,7 +48,7 @@ Q、Esc 或 Ctrl+C 退出，结束时恢复原终端屏幕、光标和输入状�
 
 - `Sources/main.swift`：播放器源码。
 - `scripts/build.sh`：本机构建脚本。
-- `雨爱.command`：双击／命令行入口。
+- `rainLove.command`：双击／命令行入口。
 - `Assets/frames.bin.gz`：YUAI0002 文件头和 320×180 灰度帧。
 - `Assets/audio.wav`：已有项目音轨。
 - `docs/`：设计、中文实施计划和验证记录。
